@@ -1,0 +1,20 @@
+function main() {
+    var nota1, nota2, nota3, nota4, nota5, media;
+    
+    window.alert("Digite a nota da primeira prova:");
+    nota1 = window.prompt('Enter a value for nota1');
+    window.alert("Digite a nota da segunda prova:");
+    nota2 = window.prompt('Enter a value for nota2');
+    window.alert("Digite a nota da terceira prova:");
+    nota3 = window.prompt('Enter a value for nota3');
+    window.alert("Digite a nota da quarta prova:");
+    nota4 = window.prompt('Enter a value for nota4');
+    window.alert("Digite a nota da prova final:");
+    nota5 = window.prompt('Enter a value for nota5');
+    media = (nota1 + nota2 + nota3 + nota4 + nota5) / 5;
+    if (media > 6) {
+        window.alert("Parabéns, você passou!");
+    } else {
+        window.alert("Você é bem burro, até ano que vem novamente!");
+    }
+}
